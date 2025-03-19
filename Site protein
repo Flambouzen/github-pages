@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eternal Protein - Produits Protéinés</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, .banner {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 40px;
+            font-size: 28px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .product, .section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product img, .qr img {
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: auto;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .banner {
+            background-color: #34495e;
+            color: white;
+            padding: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eternal Protein</h1>
+        <p>Le choix ultime pour vos besoins en protéines</p>
+    </header>
+    
+    <div class="banner">🔥 Offres Spéciales - Jusqu'à 30% de Réduction 🔥</div>
+    
+    <div class="container">
+        <div class="section">
+            <h2>À Propos de Nous</h2>
+            <p>Eternal Protein propose des produits de haute qualité pour booster votre nutrition et optimiser vos performances.</p>
+        </div>
+        
+        <div class="banner">🏋️ Produits en Vedette 🏋️</div>
+        
+        <div class="product">
+            <h2>Protéine Whey Premium</h2>
+            <img src="https://via.placeholder.com/300" alt="Whey Protein">
+            <p>Idéale pour la prise de masse musculaire et la récupération.</p>
+            <a href="#" class="btn">Acheter Maintenant</a>
+        </div>
+        
+        <div class="product">
+            <h2>Barres Protéinées Énergétiques</h2>
+            <img src="https://via.placeholder.com/300" alt="Barres Protéinées">
+            <p>Délicieuses et nutritives, parfaites pour une collation saine et énergétique.</p>
+            <a href="#" class="btn">Acheter Maintenant</a>
+        </div>
+        
+        <div class="banner">💪 Rejoignez notre communauté ! 💪</div>
+        
+        <div class="section">
+            <h2>Pourquoi Nous Choisir ?</h2>
+            <p>✔️ Produits de qualité supérieure<br>✔️ Livraison rapide<br>✔️ Service client exceptionnel</p>
+        </div>
+        
+        <div class="banner">📲 Scannez pour visiter notre site 📲</div>
+        
+        <div class="qr">
+            <img src="https://via.placeholder.com/200" alt="QR Code">
+            <p>Scannez ce QR code pour en savoir plus !</p>
+        </div>
+    </div>
+</body>
+</html>
